@@ -7,7 +7,4 @@ before_install:
 
 
 script :
-       - docker run debadutta24/deocker-react -- --coverage
-
-
-
+       - docker run debadutta24/deocker-react npm run test -- --coverage
